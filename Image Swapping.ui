@@ -21,7 +21,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>10</y>
       <width>461</width>
       <height>371</height>
@@ -30,16 +30,19 @@
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap>Images/image1.png</pixmap>
+    </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>390</y>
-      <width>463</width>
+      <x>20</x>
+      <y>400</y>
+      <width>384</width>
       <height>27</height>
      </rect>
     </property>
@@ -51,18 +54,12 @@
          <property name="text">
           <string>Previous</string>
          </property>
-         <property name="shortcut">
-          <string>Left</string>
-         </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="next_button">
          <property name="text">
           <string>Next</string>
-         </property>
-         <property name="shortcut">
-          <string>Right</string>
          </property>
         </widget>
        </item>
@@ -78,9 +75,6 @@
          <property name="text">
           <string>Enter</string>
          </property>
-         <property name="shortcut">
-          <string>Return</string>
-         </property>
         </widget>
        </item>
        <item>
@@ -88,25 +82,75 @@
          <property name="text">
           <string>Back</string>
          </property>
-         <property name="shortcut">
-          <string>B</string>
-         </property>
         </widget>
        </item>
       </layout>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="gridLayoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>520</x>
       <y>10</y>
-      <width>141</width>
-      <height>371</height>
+      <width>102</width>
+      <height>420</height>
      </rect>
     </property>
-    <layout class="QGridLayout" name="grid_"/>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_1">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/image1.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/image2.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/image3.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/image4.png</pixmap>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
