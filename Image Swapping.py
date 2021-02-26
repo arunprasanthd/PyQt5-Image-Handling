@@ -76,7 +76,7 @@ class InspectionWindow(QMainWindow):
         super(InspectionWindow, self).__init__()
 
         # To load .ui file into class InspectionWindow
-        loadUi('Image Swapping1.ui', self)
+        loadUi('Image Swapping.ui', self)
 
         self.new_win = Window()
         self.verticalLayout.addWidget(self.new_win)
